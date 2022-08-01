@@ -1,0 +1,190 @@
+body {
+  background-color: #f4f4f4f4 !important;
+}
+.form-control {
+  position: relative;
+}
+
+.form-control svg {
+  position: absolute;
+}
+
+.container .row {
+  margin-top: 50px;
+}
+
+.container .row img {
+  width: 100%;
+}
+
+.container .row .post {
+  background-color: white;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 14px 15px 20px #88888836;
+  margin-top: 20px;
+}
+
+.container .row h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 0;
+  position: absolute;
+  color: black;
+  background-color: #f8f9fa24;
+  font-size: 12px;
+  top: 20px;
+  right: -115px;
+  background-color: #0d6efd;
+  color: white;
+  transition: 0.5s;
+}
+.container .row .post:hover h3 {
+  right: 15px;
+}
+.container .row h2 {
+  font-size: 23px;
+  padding: 20px 20px 10px;
+  margin: 0;
+}
+.container .row a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+.container .row .paragraph {
+  padding: 10px 20px;
+  line-height: 1.8;
+  font-size: 19px;
+  font-weight: 400;
+  color: #888;
+  margin: 0;
+}
+
+.container .post hr {
+  color: #ccc;
+  margin-top: 10px;
+}
+
+.container .made {
+  margin: 0;
+}
+
+.container .made svg {
+  margin-right: 5px;
+  color: #888888;
+}
+
+.container .made a {
+  margin-left: 6px;
+}
+
+.container .made p {
+  color: #888;
+}
+
+.blog-detals {
+  margin-top: 40px;
+}
+
+.blog-detals .date {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #888;
+}
+
+.blog-detals img {
+  margin-top: 35px;
+  width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+  transform: scale(1.5);
+}
+
+.blog-detals .img {
+  overflow: hidden;
+  border-radius: 23px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.blog-detals p {
+  font-size: 20px;
+  line-height: 2;
+  color: #555;
+  font-weight: 500;
+}
+.vs {
+  margin-bottom: 5px;
+}
+.avatar {
+  border-radius: 50%;
+  width: 165px !important;
+}
+.img {
+  text-align: center;
+}
+.account.row {
+  margin-top: 0;
+}
+.profile h2 {
+  font-size: 35px !important;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+.follow {
+  margin-top: 25px;
+  width: 34%;
+  border: none;
+  background-color: #0593fa;
+  color: white;
+  padding: 7px 2px;
+  border-radius: 5px;
+}
+.unfollow {
+  margin-top: 25px;
+  width: 34%;
+  border: none;
+  background-color: #333;
+  color: white;
+  padding: 7px 2px;
+  border-radius: 5px;
+}
+.profile p {
+  text-align: center;
+  display: inline-block;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.profile p span {
+  font-weight: bold;
+}
+.acount-post {
+  position: relative;
+  overflow: hidden;
+}
+.see-more {
+  position: absolute;
+  top: 100%;
+  text-align: center;
+  font-size: 25px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #0593fa4d;
+  padding: 95px;
+  transition: 0.5s;
+}
+.see-more a {
+  color: white !important;
+  background-color: #607d8b;
+  padding: 10px 45px;
+  border-radius: 5px;
+}
+.acount-post:hover .see-more {
+  top: 0;
+}
